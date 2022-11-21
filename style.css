@@ -1,0 +1,94 @@
+:root{
+    --priC: #000;
+    --secC: gold;
+    --tertC: #fff;
+    --fS: calc(1vw + 1rem);
+    --cormo: 'Cormorant', serif;
+    --lora: 'Lora';
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,700;1,500&family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: var(--priC);
+    color: var(--tertC);
+    font-family: 'Lora', serif;
+
+}
+a, a:visited{
+    text-decoration: none;
+    color: var(--tertC);
+}
+@media only screen and (max-width: 800px){
+    
+}
+@media only screen and (min-width: 800px){
+    #topbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;   
+        font-family: 'Cormorant', serif;
+    }
+    #home{
+        height: auto;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .home1{
+        font-size: calc( var(--fS) * 1.2);
+        border-bottom: 1px solid var(--tertC);
+        padding-bottom: 2px;
+        font-weight: 700;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .home2{
+        font-size: calc( var(--fS) /1.4);
+        border-top: 1px solid var(--tertC);
+        margin-top: 1px;
+        padding-top: 2px;
+        margin-bottom: 0;
+    }
+    #topbar nav{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: calc( var(--fS) / 1.4);
+        width: 40%;
+        place-items: center;
+    }
+    #topbar nav a{
+        border-bottom: 2px solid var(--priC);
+        
+    }
+    #topbar nav a:hover{
+        border-bottom: 2px solid var(--tertC);
+        transition: all ease 0.75s;
+    }
+
+    .bgone{
+        background-color: var(--priC);
+    }
+    .bgtwo{
+        background-color: var(--secC);
+        color: var(--priC);
+    }
+    /* ABOUT************************************************************** */
+    #About{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid green;
+        width: 66%;
+        margin: auto;
+        place-items: center;
+
+    }
+    .about{
+        width:20%;
+        height: 50vw;
+        background-color: red;
+
+    }
+    
+}
