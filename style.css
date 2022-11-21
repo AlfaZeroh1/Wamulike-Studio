@@ -12,18 +12,15 @@
     padding: 0;
 }
 html{
-    background-color: var(--priC);
+    background-color: lightcyan;
     color: var(--tertC);
     font-family: 'Lora', serif;
 
 }
-a, a:visited{
+/* a, a:visited{
     text-decoration: none;
     color: var(--tertC);
-}
-@media only screen and (max-width: 800px){
-    
-}
+} */
 @media only screen and (min-width: 800px){
     #topbar{
         width: 100%;
@@ -57,17 +54,15 @@ a, a:visited{
         font-size: calc( var(--fS) / 1.4);
         width: 40%;
         place-items: center;
-        color: #000;
     }
-    #topbar nav a{
+    /* #topbar nav a{
         border-bottom: 2px solid var(--priC);
         
-    }
+    } */
     #topbar nav a:hover{
         border-bottom: 2px solid var(--tertC);
         transition: all ease 0.75s;
     }
-
     .bgone{
         min-height: 100vh;
         background-color: var(--priC);
@@ -84,14 +79,10 @@ a, a:visited{
         width: 66%;
         margin: auto;
         place-items: center;
-        min-height: 100vh;
-
     }
     .about{
         width:20%;
         height: 50vw;
         background-color: red;
-
     }
-    
 }
