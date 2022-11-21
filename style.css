@@ -57,6 +57,7 @@ a, a:visited{
         font-size: calc( var(--fS) / 1.4);
         width: 40%;
         place-items: center;
+        color: #000;
     }
     #topbar nav a{
         border-bottom: 2px solid var(--priC);
@@ -68,6 +69,7 @@ a, a:visited{
     }
 
     .bgone{
+        min-height: 100vh;
         background-color: var(--priC);
     }
     .bgtwo{
@@ -82,6 +84,7 @@ a, a:visited{
         width: 66%;
         margin: auto;
         place-items: center;
+        min-height: 100vh;
 
     }
     .about{
